@@ -1,0 +1,29 @@
+# Núcleo
+pandas
+numpy
+
+# Persistencia
+sqlalchemy
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# Explicabilidad
+shap
+
+# Visualización e interfaz
+plotly
+streamlit
+
+# Exportación
+jinja2
+python-docx
+
+# Importación de archivos de entrenamiento
+fitparse
+
+# Testing
+pytest
+pytest-cov

@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Secretos y entorno
+.env
+.env.*
+!.env.example
+
+# Tests y caché
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Bases de datos generadas
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Artefactos generados (dataset sintético, modelos ML, exports)
+/artifacts/datasets/*
+/artifacts/models/*
+/artifacts/exports/*
+!/artifacts/datasets/.gitkeep
+!/artifacts/models/.gitkeep
+!/artifacts/exports/.gitkeep
+
+# Biblioteca local de consulta (copyright: no subir al repo)
+/docs/bibliografia/*
+!/docs/bibliografia/README.md
